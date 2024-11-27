@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta
+      content="AIT Frontend final project by Vasyl Khvostyk"
+      name="description"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content="Vasyl Khvostyk" name="author" />
+    <title>AIT Frontend Final by Vasyl Khvostyk</title>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // Workaround for router issues
+      (function () {
+        const base = "/ait-fs-front-final";
+        const l = window.location;
+        if (l.pathname.startsWith(base) && l.pathname !== base + "/") {
+          const route = l.pathname.slice(base.length);
+          window.history.replaceState(null, null, base + "/#" + route);
+          setTimeout(() => {
+            window.history.replaceState(null, null, l.pathname);
+          }, 100);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
