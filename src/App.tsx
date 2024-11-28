@@ -5,7 +5,7 @@ import Layout from './components/Layout.tsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ait-fs-front-final">
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />
