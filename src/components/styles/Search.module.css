@@ -1,0 +1,25 @@
+.wrapper {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.validation {
+  width: 709px;
+  margin: 20px auto;
+}
+
+.error {
+  font-size: 1.5rem;
+  text-align: left;
+  margin: 20px auto;
+  color: #f35e5e;
+  font-weight: 700;
+  width: 709px;
+}

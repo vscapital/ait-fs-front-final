@@ -1,0 +1,11 @@
+.footer {
+  color: white;
+  margin: 120px auto;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin-left: 6px;
+  font-weight: 500;
+}

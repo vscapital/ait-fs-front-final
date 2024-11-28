@@ -1,0 +1,48 @@
+.wrapper {
+  position: relative;
+  width: 709px;
+  height: 220px;
+}
+
+.blurBackground {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  border-radius: 40px;
+}
+
+.container {
+  position: relative;
+  width: 709px;
+  height: 220px;
+}
+
+.card {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, #2f486f 0%, #0b1b34 100%);
+  opacity: 0.62;
+  filter: drop-shadow(0 4px 4px #000000);
+  border-radius: 40px;
+}
+
+.content {
+  position: relative;
+  height: 100%;
+  padding: 1.5rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.childrenContainer {
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: auto;
+  margin-bottom: 10px;
+}

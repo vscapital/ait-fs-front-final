@@ -1,0 +1,51 @@
+.temperature {
+  position: absolute;
+  left: 40px;
+  top: 34px;
+  font-family: 'Inter', sans-serif;
+  font-size: 57px;
+  font-weight: 500;
+  line-height: 69px;
+  color: #ffffff;
+}
+
+.city {
+  position: absolute;
+  left: 40px;
+  top: 100px;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.description {
+  position: absolute;
+  left: 205px;
+  top: 100px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: #ffffff;
+  width: 300px;
+  text-align: center;
+}
+
+.weatherContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.weatherIcons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.weatherIcons img {
+  max-width: 70px;
+  max-height: 70px;
+}

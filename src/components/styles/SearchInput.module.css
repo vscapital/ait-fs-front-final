@@ -1,0 +1,18 @@
+.searchInput {
+  width: 550px;
+  height: 48px;
+  border-radius: 40px;
+  border: 1px solid white;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(16px);
+  padding: 12px 20px;
+  color: white;
+  outline: none;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.searchInput::placeholder {
+  color: #b8c9d3;
+}

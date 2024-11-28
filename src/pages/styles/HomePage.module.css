@@ -1,0 +1,20 @@
+.result {
+  margin: 0 auto;
+  width: 709px;
+}
+
+.errorTitle {
+  color: #f35e5e;
+  line-height: 69px;
+  font-size: 57px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.error {
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 400;
+}
