@@ -45,10 +45,6 @@ jobs:
           pnpm install
           pnpm store prune
 
-      - name: Prepare Build
-        run: |
-          cp public/404.html dist/404.html
-
       - name: Build
         run: pnpm build
         env:
