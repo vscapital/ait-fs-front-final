@@ -47,8 +47,6 @@ jobs:
 
       - name: Prepare Build
         run: |
-          mkdir -p dist/locales
-          cp -r public/locales/* dist/locales/
           cp public/404.html dist/404.html
 
       - name: Build
